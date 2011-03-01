@@ -8,7 +8,9 @@ This highly useful, long-sought-after plugin allows you to dynamically change an
 
     $('body').placekitten();
 
+# Bookmarklet
 
+A useful (bookmarklet)[http://lsemel.github.com/jquery-placekitten/bookmarklet.html] is now available.   Please note that this bookmarklet is highly experimental and should not be used as part of production code.
 
 # History
 
