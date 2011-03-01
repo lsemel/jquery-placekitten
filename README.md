@@ -10,11 +10,9 @@ This highly useful, long-sought-after plugin allows you to dynamically change an
 
 # Bookmarklet
 
-A useful bookmarklet is now available below.  Simply drag it to your browser toolbar to use Placekitten on any page.  Please note that this bookmarklet is highly experimental and should not be used as part of production code.
+A useful Placekitten bookmarklet is now available.  As Github does not appear to allow Javascript links in README files, please visit [this link](http://lsemel.github.com/jquery-placekitten/bookmarklet.html) to get it.
 
-<a href="javascript:var%20complete=function(){(function($){$.fn.placekitten=function(){this.find('img').each(function(i,img){var%20w=img.width;var%20h=img.height;if(w&&h){var%20src='http://placekitten.com/'+w+'/'+h;im
-g.src=src;}});};})(jQuery);$(function(){$('body').placekitten()});};%20if(typeof%20jQuery=='undefined'){var%20jQ=document.createElement('script');jQ.type='text/javascript';jQ.onload=complete;jQ.src='http://ajax.googleapis.c
-om/ajax/libs/jquery/1/jquery.min.js';document.body.appendChild(jQ);}else{complete();};void(0)">Kittify page!</a>
+Please note that this bookmarklet is highly experimental and should not be used as part of production code.
 
 
 # History
