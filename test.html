@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>jQuery-placekitten test page</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" ></script>
+        <script type="text/javascript" src="js/jquery.placekitten.js" ></script>
+        <link rel="stylesheet" href="http://blueprintcss.org/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="http://blueprintcss.org/blueprint/print.css" type="text/css" media="print">
+        <!--[if lt IE 8]><link rel="stylesheet" href="http://blueprintcss.org/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+        <style>
+            body {
+                margin: 20px;
+            }
+            #div1 {
+                width: 150px;
+                height: 150px;
+                background-image: url(http://placehold.it/150x150);
+            }
+            #a1 {
+                cursor: pointer;
+                display: block;
+                width: 200px;
+                height: 50px;
+                background-image: url(http://placehold.it/200x50);
+            }
+            h3 {
+                margin-top: 20px;
+            }
+        </style>
+        <script>
+            $(function(){
+                $('body').placekitten();
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>jQuery placekitten test page</h1>
+
+            <h3>Regular images</h3>
+
+            <img id="img1" src="http://placehold.it/300x200" width="300" height="200" />
+            <img id="img2" src="http://placehold.it/50x75" width="50" height="75" />
+            <img id="img3" src="http://placehold.it/10x300" width="10" height="300" />
+            <img id="img4" src="http://placehold.it/200x10" width="200" height="10" />
+
+            <h3>Background of a div</h3>
+
+            <div id="div1"></div>
+
+            <h3>Background of a link</h3>
+
+            <a href="#" id="a1">link</a>
+        </div>
+    </body>
+</html>
