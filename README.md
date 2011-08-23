@@ -10,7 +10,9 @@ This highly useful, long-sought-after plugin allows you to dynamically change an
 
 # Bookmarklet
 
-A useful Placekitten bookmarklet is now available.  As Github does not appear to allow Javascript links in README files, please visit [this link](http://lsemel.github.com/jquery-placekitten/bookmarklet.html) to get it.
+A useful Placekitten bookmarklet is now available.  This is useful for running on sites like CNN.com to cheer up an otherwise depressing day of news.
+
+As Github does not appear to allow Javascript links in README files, please visit [this link](http://lsemel.github.com/jquery-placekitten/bookmarklet.html) to get it.
 
 Please note that this bookmarklet is highly experimental and should not be used as part of production code.
 
